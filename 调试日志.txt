@@ -1,0 +1,11 @@
+5.12
+Library新增功能     1.Book* All_books_list();
+                    2.int* All_books_number_list();
+                    3.void read_book_record(string filename);   实现从txt文件中读取
+
+Library函数修复     1.void addBook(Book new_book,int num_of_books);
+                    2.void read_book_record(string filename);
+
+Library仍存在bug:
+
+	读取同一txt文档第二次时  read_book_record()函数会将最后一本书添加两次
